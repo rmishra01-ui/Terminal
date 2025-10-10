@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="terminal.css">
+  </head>
+  <body>
+    <terminal-app>
+     <terminal-app-header>
+      <h1>Terminal</h1>
+     </terminal-app-header>
+      <terminal-app-slot add-round="46">
+       <terminal-app-slot.ar46></terminal-app-slot.ar46>
+      </terminal-app-slot>
+      <a href="crosh.py">
+        <button>Open crosh</button>
+      </a>
+      <button onclick="window.print();">Print...</button>
+    </terminal-app>
+  </body>
+</html>
